@@ -1,0 +1,14 @@
+body{
+    background-image: radial-gradient(gold, antiquewhite, bisque, goldenrod);
+}
+
+img{
+    border-radius: 45%;
+    width: 25cm;
+    height: 20cm;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;  
+
+}
+
