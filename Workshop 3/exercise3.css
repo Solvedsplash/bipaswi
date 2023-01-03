@@ -1,0 +1,24 @@
+h3{
+    font-weight:bold;
+    color:blanchedalmond;
+    text-align:left;
+    background:black;
+}
+h3:hover{
+    color:goldenrod;
+    background-color: orchid;
+}
+p{
+    color:aquamarine;
+    background-color: bisque;
+    font-size: 40px;
+    font-style:oblique;
+    font-weight:bold;
+    text-align:center;
+}
+#violet{
+    color:violet;
+    background-color: aqua;
+    font-style: italic;
+    text-align: right;
+}
