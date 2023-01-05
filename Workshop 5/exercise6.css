@@ -1,0 +1,102 @@
+.four_main {
+    width: 50%;
+    font-size: 20px;
+}
+.last_main {
+    width: 50%;
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+    padding:0 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*Section four*/
+
+.four_main{
+    height: 790px;
+    width: 100%;
+    background-image: linear-gradient(burlywood,blanchedalmond );
+    display: flex;
+    color: black;
+}
+#lis{
+    padding: 15px;
+    text-align: center;
+}
+#img_four{
+    height: 790px;
+    width: 55%;
+    object-fit: cover;
+}
+.Limbo{
+    width: 40%;
+}
+ul {
+    margin-top: 250px;
+    margin-left: 50px;
+
+}
+li{
+    list-style-type: none;
+    font-size: 30px;
+    padding: 12px;
+}
+
+/*last section*/
+.last_main{
+    background-color: rgb(67, 93, 84);
+    color: antiquewhite;
+    height:790px;
+    width: 100%;
+    display:flex;
+}
+
+.contain{
+    margin-right: 12px;
+    margin-left: 48px;
+    margin-top: 25;
+    width: 55%;
+    height: 645px;
+    padding: 12px 12px;
+}
+
+h1{
+    color: rgba(202, 75, 75, 0.475);
+    margin-top: 80px;
+    font-size: 50px;
+}
+h3{
+    font-size: 28px;
+}
+
+#first_para1{
+    padding: 10px 10px;
+    margin-top: 80px;
+    margin-bottom: 52px;
+    font-size: 25px;
+}
+#img3{
+    width: 70%;
+    height: 790px;
+    object-fit: cover;
+}
+
+input[type="button"]{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 35px;
+    background-color: rgb(145, 50, 173);
+    color: rgba(0, 0, 0, 0.577);
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    transform: scale(1.25);
+    transition-duration: 0.85s;
+   background-color:sienna;
+}
